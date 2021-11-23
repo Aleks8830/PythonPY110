@@ -3,7 +3,8 @@ import json
 
 def task():
     filename = "input.json"
-    # TODO считать содержимое JSON файла
+    with open(filename) as file_1:
+
 
     return ...  # TODO найти максимальный элемент по ключу score
 

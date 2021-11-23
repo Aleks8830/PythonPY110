@@ -11,7 +11,7 @@ files:
       offset: 153
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: len(word) for word in list_words)
   text: |
     def task() -> int:
@@ -37,5 +37,11 @@ files:
   text: |
     9
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Tue, 23 Nov 2021 15:08:30 UTC
+  expected: |
+    9
+  actual: <no output>
 record: -1

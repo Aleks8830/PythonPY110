@@ -1,12 +1,12 @@
 import json
 
 
-def to_json_string(python_object) -> str:
+def to_json_string(python_object) -> str: # ожидаем полуить строку
     json_string = json.dumps(python_object)  # метод dumps сериализует объект в JSON строку
     return json_string
 
 
-def from_json_string(json_string: str):
+def from_json_string(json_string: str): # ожидаем ввода строку
     python_object = json.loads(json_string)  # метод loads десериализует из JSON строки в python объект
     return python_object
 
